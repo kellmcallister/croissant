@@ -17,7 +17,7 @@ h1 {
   margin-top: 20px;
 }
 h2,
-h3 {
+h4 {
   opacity: 0.8;
 }
 img {
@@ -28,6 +28,13 @@ img {
   box-shadow: var(--box-shadow);
   padding: 10px;
   margin: 10px;
+}
+footer {
+  margin: 40px auto;
+}
+.github-link {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 .photo-link,
 .contact-link,
@@ -45,7 +52,7 @@ a:hover {
   text-decoration: underline;
 }
 .croissant-email {
-  color: #2e2119;
+  color: var(--primary-color);
   font-weight: bold;
 }
 .summary {
@@ -58,7 +65,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .links {
-  margin: 20px;
+  margin: 20px auto;
 }
 .vote-image:hover {
   cursor: pointer;
