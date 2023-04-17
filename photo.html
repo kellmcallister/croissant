@@ -14,23 +14,25 @@
     <title>Photos</title>
   </head>
   <body>
-    <h1>See how flaky!</h1>
-    <h2>Which style is your favorite?</h2>
-    <h3>Click an image to vote!</h3>
+    <h1>Mmmmmm flaky!</h1>
+    <h2>Which style is your <em>favorite?</em></h2>
+    <h3>Click an image to vote ✔️</h3>
     <div class="container d-flex croissant-grid">
       <div class="row">
         <div class="col-6">
           <img
             src="/photos/croissant-breakfast-sandwich.jpg"
             alt="Croissant Breakfast Sandwich"
-            class="img-fluid rounded croissant-breakfast"
+            class="img-fluid rounded vote-image croissant-breakfast"
+            id="vote-image1"
           />
         </div>
         <div class="col-6">
           <img
             src="/photos/Croissant-French-Toast.jpg"
             alt="French Toast Croissant"
-            class="img-fluid rounded french-toast-croissant"
+            class="img-fluid rounded vote-image french-toast-croissant"
+            id="vote-image2"
           />
         </div>
 
@@ -38,20 +40,24 @@
           <img
             src="/photos/Fresh-Chocolate-Croissants-Recipe.jpg"
             alt="Chocolate Croissant"
-            class="img-fluid rounded croissant-chocolate"
+            class="img-fluid rounded vote-image croissant-chocolate"
+            id="vote-image3"
           />
         </div>
         <div class="col-6">
           <img
             src="/photos/smoked-salmon-croissants-3.jpg"
             alt="Smoked Salmon Croissant"
-            class="img-fluid rounded smoked-salmon-croissant"
+            class="img-fluid rounded vote-image smoked-salmon-croissant"
+            id="vote-image4"
           />
         </div>
       </div>
     </div>
-    <a href="/index.html">Homepage</a><br /><a href="/contact.html"
-      >Contact a croissant</a
-    >
+    <div class="links">
+      <a href="/index.html" class="home-link">Homepage</a
+      ><a href="/contact.html" class="contact-link">Contact a croissant</a>
+    </div>
+    <script src="/src/index.js"></script>
   </body>
 </html>
